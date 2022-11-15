@@ -31,7 +31,7 @@ class LocationService {
   }) : _protocol = _s.RestJsonProtocol(
           client: client,
           service: _s.ServiceMetadata(
-            endpointPrefix: 'geo',
+            endpointPrefix: 'places.geo',
             signingName: 'geo',
           ),
           region: region,
