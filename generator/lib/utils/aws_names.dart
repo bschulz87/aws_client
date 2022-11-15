@@ -23,6 +23,7 @@ const awsCliServiceNames = <String>{
   'budgets',
   'ce',
   'chime',
+  'client_location',
   'cloud9',
   'clouddirectory',
   'cloudformation',

@@ -105,6 +105,7 @@ class Api {
       'runtime.lex-2016-11-28': 'lex-runtime',
       'entitlement.marketplace-2017-01-11': 'marketplace-entitlement',
       'runtime.sagemaker-2017-05-13': 'sagemaker-runtime',
+      'location-2020-11-19': 'client_location',
     }[fileBasename];
     if (mapped != null && awsCliServiceNames.contains(mapped)) {
       return mapped;

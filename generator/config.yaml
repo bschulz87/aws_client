@@ -18,6 +18,7 @@ protocols:
 
 # Packages to generate
 packages:
+  - aws_client_location_api
 ## ec2
   - aws_ec2_api
 ## rest-json protocol APIs
